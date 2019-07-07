@@ -1,5 +1,5 @@
 package observer;
 
-public interface Observer {
+interface Observer {
     void updateWeatherForecast(WeatherForecast weatherForecast);
 }

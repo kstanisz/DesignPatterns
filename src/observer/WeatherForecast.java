@@ -3,7 +3,7 @@ package observer;
 import java.util.HashSet;
 import java.util.Set;
 
-public class WeatherForecast implements Observable {
+class WeatherForecast implements Observable {
     private int temperature;
     private int pressure;
     private Set<Observer> observers = new HashSet<>();

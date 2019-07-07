@@ -1,6 +1,6 @@
 package observer;
 
-public interface Observable {
+interface Observable {
     void registerObserver(Observer observer);
 
     void unregisterObserver(Observer observer);
