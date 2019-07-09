@@ -19,7 +19,7 @@ class GuessGameSerializationSafe implements Serializable {
         return this.score;
     }
 
-    public static GuessGameSerializationSafe getInstance() {
+    static GuessGameSerializationSafe getInstance() {
         if (instance == null) {
             synchronized (GuessGameSerializationSafe.class) {
                 if (instance == null) {
